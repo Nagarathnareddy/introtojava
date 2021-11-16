@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<body>
+    
+    <h1 id="fontsize">TOP CLASS FAMILY</h1>
+    
+    <div id="but">
+       
+    <button type="button" onclick="forsmall()">small</button> 
+    <button type="button" onclick="formedium()">medium</button>
+    <button type="button" onclick="forlarge()">large</button>
+    </div>
+    
+    <div id="colors"> 
+        <p style="font-size: x-large;">For more colours</p>
+        
+        <button type="button" onclick="forv()">V</button>
+        <button type="button" onclick="forI()">I</button>
+        <button type="button" onclick="forB()">B</button>
+        <button type="button" onclick="forG()">G</button>
+        <button type="button" onclick="forY()">Y</button>
+        <button type="button" onclick="forO()">O</button>
+        <button type="button" onclick="forR()">R</button>
+    </div>
+
+    <div id="myfam">
+        <button type="button" onclick="forcontent1()">My</button>
+        <button type="button" onclick="forcontent2()">Strength</button>
+        <button type="button" onclick="forcontent3()">Family</button>
+    </div>
+    <div id="images">
+     <ul>
+    <li><button type="button" onclick="forimage1()" style="display:block;">S Achireddy</button></li> 
+    <li><button type="button" onclick="forimage2()">S Shamla</button></li>
+    <li><button type="button" onclick="forimage3()">S Navatha</button></li>
+    <li><button type="button" onclick="forimage4()">S Nagalakshmi</button></li>
+    <li><button type="button" onclick="forimage5()">S Nagarathna</button></li>
+    <li><button type="button" onclick="forimage6()">P Joel</button></li>
+    </ul>   
+    </div>
+
+
+   <div id="familyimages"> 
+    <img id="dad" src="../introtojava/images.html/Achireddy.jpeg" width="200px" height="300px" style=" display: none;">
+    <img id="mom" src="../introtojava/images.html/shamala.jpeg" width="200px" height="300px" style="display: none;">
+    <img id="chitti" src="../introtojava/images.html/chitti.jpeg" width="200px" height="300px" style="display: none;">
+    <img id="chinni" src="../introtojava/images.html/chinni.jpeg" width="200px" height="300px" style="display: none;">
+    <img id="nagu" src="../introtojava/images.html/nagu.jpeg" width="200px" height="300px" style="display: none;">
+    <img id="jovi" src="../introtojava/images.html/joel.jpeg" width="200px" height="300px" style="display: none;">
+   </div>
+
+
+
+
+
+
+
+
+
+    <script>
+        function forsmall()
+        {
+            document.getElementById('fontsize').style.fontSize='30px'
+        }
+        function formedium()
+        {
+            document.getElementById('fontsize').style.fontSize='40px'
+        }
+        function forlarge()
+        {
+            document.getElementById('fontsize').style.fontSize='50px'
+        }
+        
+
+
+        function forv()
+        {
+            document.getElementById('fontsize').style.color='violet'
+        }
+        function forI()
+        {
+            document.getElementById('fontsize').style.color='indigo'
+        }
+        function forB()
+        {
+            document.getElementById('fontsize').style.color='blue'
+        }
+        function forG()
+        {
+            document.getElementById('fontsize').style.color='green'
+        }
+        function forY()
+        {
+            document.getElementById('fontsize').style.color='yellow'
+        }
+        function forO()
+        {
+            document.getElementById('fontsize').style.color='orange'
+        }
+        function forR()
+        {
+            document.getElementById('fontsize').style.color='red'
+        }
+
+
+
+        function forcontent1()
+        {
+
+            document.getElementById('fontsize').innerHTML='My'
+        }
+        function forcontent2()
+        {
+
+            document.getElementById('fontsize').innerHTML='Strength'
+        }
+        function forcontent3()
+        {
+
+            document.getElementById('fontsize').innerHTML='Family'
+        }
+
+
+
+       function forimage1()
+        {
+            var x = document.getElementById('dad').style.display='block';
+        }
+
+        function forimage2()
+        {
+            var x = document.getElementById('mom').style.display='block';
+        }
+        function forimage3()
+        {
+            var x = document.getElementById('chitti').style.display='block';
+        }
+        function forimage4()
+        {
+            var x = document.getElementById('chinni').style.display='block';
+        }
+        function forimage5()
+        {
+            var x = document.getElementById('nagu').style.display='block';
+        }
+        function forimage6()
+        {
+            var x = document.getElementById('jovi').style.display='block';
+        }
+       
+        
+        
+
+    </script>
+    
+    
+   
+    
+</body>
+</html>

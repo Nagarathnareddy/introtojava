@@ -1,0 +1,91 @@
+body
+{
+ background-image: url(../introtojava/images.html/bac4.jpeg);
+ background-repeat: no-repeat;
+ background-attachment: fixed;
+/*width: 100vw;
+height: 100vh;*/
+width: 2000px;
+height: 1500px;
+
+
+ 
+}
+#fontsize
+{
+    
+    color:rgb(112, 16, 64);
+    background-color: mintcream;
+    display: inline;
+    text-align: center;
+    border: 5px;
+    border-color:rgb(23, 107, 99);
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    font-size: 50px;
+    position: absolute;
+    left: 10px;
+    
+    right: 10px;
+    top: 0px;
+    display: inline-block;
+   
+ 
+  
+   
+}
+#but
+{
+    background-color:hotpink ;
+    border:black ;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline;
+    margin: 20px;
+    
+    
+
+}
+#colors
+{
+    font-size: 100px;
+    color: rgb(134, 15, 75);
+   position: absolute;
+   right: 100px;
+   bottom: 200px;
+   margin-top: 20px;
+   
+
+    
+}
+#myfam
+{
+    font-size: 100px;
+    
+}
+#images
+{
+    padding: 0pc;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    border: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 5px;
+    display: inline-flex;
+  
+    
+   
+}
+
+#familyimages
+{
+    border-color: ivory;
+    border-radius: 5px;
+    border-width: 5px;
+    border-style: solid;
+    display: inline-flex;
+}
